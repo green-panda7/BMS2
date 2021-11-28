@@ -332,3 +332,230 @@ body {
 .dashboard .dashItems:hover a {
     color: var(--burlywood);
 }
+
+
+/* Profile */
+
+.profile {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.profile .profileItems {
+    position: relative;
+    background: var(--burlywood);
+    padding: 50px;
+    height: 140%;
+    left: 105%;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.profile .profileItems:nth-child(1) {
+    position: relative;
+    left: 0px;
+    height: 250%;
+    background: var(--burlywood);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.profile img {
+    position: relative;
+    top: 10px;
+    left: calc(100% - 300px);
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.profile a {
+    color: var(--indigo_dye);
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.profile .profileItems:hover {
+    background: var(--indigo_dye);
+}
+
+.profile .profileItems:hover a {
+    color: var(--burlywood);
+}
+
+
+/* documents */
+
+.docs {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    justify-content: center;
+}
+
+.docs .docsItems {
+    position: relative;
+    background: var(--burlywood);
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 0 7px 25px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.docs img {
+    position: relative;
+    height: 500px;
+    width: 500px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.docs a {
+    color: var(--indigo_dye);
+    font-size: 3em;
+    text-decoration: none;
+}
+
+.docs .docsItems:hover {
+    background: var(--indigo_dye);
+}
+
+.docs .docsItems:hover a {
+    color: var(--burlywood);
+}
+
+
+/* barangay officials */
+
+.brgy_officials {
+    position: relative;
+    height: auto;
+    text-align: center;
+}
+
+.brgy_officials dl {
+    position: relative;
+    padding-top: 10px;
+    transition: 0.5s;
+    justify-content: center;
+}
+
+.brgy_officials dt {
+    position: relative;
+    padding-top: 10px;
+    padding: 20px;
+    display: inline-table;
+    transition: 0.5s;
+}
+
+.brgy_officials dt::before,
+.brgy_officials dt::after {
+    content: '';
+    position: absolute;
+    right: 50%;
+    border-top: 1px solid var(--indigo_dye);
+}
+
+.brgy_officials dt::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid var(--indigo_dye);
+}
+
+.brgy_officials dt:only-child::after,
+.brgy_officials dt:only-child::before {
+    display: none;
+}
+
+.brgy_officials dt:only-child {
+    padding-top: 0;
+}
+
+.brgy_officials dt:first-child::before,
+.brgy_officials dt:last-child::after {
+    border: 0 none;
+}
+
+.brgy_officials dt:last-child::before {
+    border-right: 1px solid var(--indigo_dye);
+    border-radius: 0px 5px 0px 0px;
+}
+
+.brgy_officials dt:first-child::after {
+    border-radius: 5px 0px 0px 0px;
+}
+
+.brgy_kagawad ul {
+    position: relative;
+    padding-top: 10px;
+    transition: 0.5s;
+}
+
+.brgy_kagawad ul::before {
+    content: '';
+    position: absolute;
+    right: 50%;
+}
+
+.brgy_kagawad li {
+    position: relative;
+    padding-top: 10px;
+    padding: 20px;
+    display: inline-table;
+    transition: 0.5s;
+}
+
+.brgy_officials .brgyoff_Img {
+    padding: 10px;
+    display: grid;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.brgy_officials .brgyoff_Img img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+.brgy_officials dt:nth-child(1):hover {
+    background: var(--indigo_dye);
+}
+
+.brgy_officials dt:nth-child(3):hover {
+    background: var(--indigo_dye);
+}
+
+.brgy_officials dt:nth-child(4):hover {
+    background: var(--indigo_dye);
+}
+
+.brgy_kagawad li:hover {
+    background: var(--indigo_dye);
+}
+
+.brgy_officials dt:nth-child(1):hover,
+.brgy_officials dt:nth-child(1):hover,
+.brgy_officials dt:nth-child(1):hover,
+.brgy_kagawad li:hover {
+    color: var(--burlywood);
+}
