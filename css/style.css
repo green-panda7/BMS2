@@ -80,10 +80,6 @@ body {
     overflow: hidden;
 }
 
-.navigation.active {
-    width: 80px;
-}
-
 .navigation dl {
     position: absolute;
     top: 0;
@@ -265,26 +261,6 @@ body {
     width: calc(100% - 350px);
     left: 350px;
     transition: 0.5s;
-}
-
-.main.active {
-    width: (100% - 80px);
-    left: 80px;
-}
-
-
-/* toggle */
-
-.toggle {
-    position: relative;
-    width: 60px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5em;
-    cursor: pointer;
-    color: var(--indigo_dye);
 }
 
 
