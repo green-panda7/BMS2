@@ -95,13 +95,13 @@ body {
 }
 
 
-/* sk officials navigation */
+/* brgy officials navigation */
 
-.navigation dl dt:nth-child(6) {
+.navigation dl dt:nth-child(5) {
     background: var(--copper_crayola);
 }
 
-.navigation dl dt:nth-child(6) a {
+.navigation dl dt:nth-child(5) a {
     position: relative;
     display: block;
     width: 100%;
@@ -230,8 +230,8 @@ body {
 
 /* nav curve right */
 
-.navigation dl dt:nth-child(6) a::before,
-.navigation dl dt:nth-child(6) a::before {
+.navigation dl dt:nth-child(5) a::before,
+.navigation dl dt:nth-child(5) a::before {
     content: '';
     position: absolute;
     right: 0;
@@ -244,8 +244,8 @@ body {
     pointer-events: none;
 }
 
-.navigation dl dt:nth-child(6) a::after,
-.navigation dl dt:nth-child(6) a::after {
+.navigation dl dt:nth-child(5) a::after,
+.navigation dl dt:nth-child(5) a::after {
     content: '';
     position: absolute;
     right: 0;
@@ -269,22 +269,22 @@ body {
 }
 
 
-/* SK officials */
+/* barangay officials */
 
-.sk_officials {
+.brgy_officials {
     position: relative;
     height: auto;
     text-align: center;
 }
 
-.sk_officials dl {
+.brgy_officials dl {
     position: relative;
     padding-top: 10px;
     transition: 0.5s;
     justify-content: center;
 }
 
-.sk_officials dt {
+.brgy_officials dt {
     position: relative;
     padding-top: 10px;
     padding: 20px;
@@ -292,56 +292,56 @@ body {
     transition: 0.5s;
 }
 
-.sk_officials dt::before,
-.sk_officials dt::after {
+.brgy_officials dt::before,
+.brgy_officials dt::after {
     content: '';
     position: absolute;
     right: 50%;
     border-top: 1px solid var(--indigo_dye);
 }
 
-.sk_officials dt::after {
+.brgy_officials dt::after {
     right: auto;
     left: 50%;
     border-left: 1px solid var(--indigo_dye);
 }
 
-.sk_officials dt:only-child::after,
-.sk_officials dt:only-child::before {
+.brgy_officials dt:only-child::after,
+.brgy_officials dt:only-child::before {
     display: none;
 }
 
-.sk_officials dt:only-child {
+.brgy_officials dt:only-child {
     padding-top: 0;
 }
 
-.sk_officials dt:first-child::before,
-.sk_officials dt:last-child::after {
+.brgy_officials dt:first-child::before,
+.brgy_officials dt:last-child::after {
     border: 0 none;
 }
 
-.sk_officials dt:last-child::before {
+.brgy_officials dt:last-child::before {
     border-right: 1px solid var(--indigo_dye);
     border-radius: 0px 5px 0px 0px;
 }
 
-.sk_officials dt:first-child::after {
+.brgy_officials dt:first-child::after {
     border-radius: 5px 0px 0px 0px;
 }
 
-.sk_members ul {
+.brgy_kagawad ul {
     position: relative;
     padding-top: 10px;
     transition: 0.5s;
 }
 
-.sk_members ul::before {
+.brgy_kagawad ul::before {
     content: '';
     position: absolute;
     right: 50%;
 }
 
-.sk_members li {
+.brgy_kagawad li {
     position: relative;
     padding-top: 10px;
     padding: 20px;
@@ -349,7 +349,7 @@ body {
     transition: 0.5s;
 }
 
-.sk_officials .sk_Img {
+.brgy_officials .brgyoff_Img {
     padding: 10px;
     display: grid;
     width: 100px;
@@ -359,7 +359,7 @@ body {
     cursor: pointer;
 }
 
-.sk_officials .sk_Img img {
+.brgy_officials .brgyoff_Img img {
     position: absolute;
     top: 20px;
     left: 20px;
@@ -368,25 +368,25 @@ body {
     object-fit: cover;
 }
 
-.sk_officials dt:nth-child(1):hover {
+.brgy_officials dt:nth-child(1):hover {
     background: var(--indigo_dye);
 }
 
-.sk_officials dt:nth-child(3):hover {
+.brgy_officials dt:nth-child(3):hover {
     background: var(--indigo_dye);
 }
 
-.sk_officials dt:nth-child(4):hover {
+.brgy_officials dt:nth-child(4):hover {
     background: var(--indigo_dye);
 }
 
-.sk_members li:hover {
+.brgy_kagawad li:hover {
     background: var(--indigo_dye);
 }
 
-.sk_officials dt:nth-child(1):hover,
-.sk_officials dt:nth-child(1):hover,
-.sk_officials dt:nth-child(1):hover,
-.sk_members li:hover {
+.brgy_officials dt:nth-child(1):hover,
+.brgy_officials dt:nth-child(1):hover,
+.brgy_officials dt:nth-child(1):hover,
+.brgy_kagawad li:hover {
     color: var(--burlywood);
 }
